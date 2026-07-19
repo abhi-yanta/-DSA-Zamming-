@@ -60,7 +60,7 @@ using namespace std;
         
         // Now by clearing the vector we can save the memory which is used by the vector during recursive calls.
         // Space Complexity: O(n) + O(n) + O(n) = O(3n) = O(n)
-
+        // Technique  Used in Merge Sort is Divide and Conquer Technique.
     }
 int main(){
     int arr[] = {5,1,3,0,5,9,6};
