@@ -54,9 +54,9 @@ int main(){
 // #Note-->
 
 // Time Complexity:
-//     Bubble Sort: O(n^2)
+//     Bubble Sort: O(n^2) Stable Sort
 //     Selection Sort: O(n^2)
-//     Insertion Sort: O(n^2)
+//     Insertion Sort: O(n^2) Stable Sort
 
-//     Merge Sort: O(n log n)
+//     Merge Sort: O(n log n) Stable Sort
 //     Quick Sort: O(n log n) on average, O(n^2) in the worst case
