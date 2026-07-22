@@ -121,7 +121,7 @@ output.exe
 
 ## 🎯 Goals
 
-- Solve 500+ DSA Problems
+- Solve 1000+ DSA Problems
 - Master Time & Space Complexity
 - Crack Coding Interviews
 - Improve Competitive Programming Skills
