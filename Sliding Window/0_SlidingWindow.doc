@@ -1,0 +1,8 @@
+
+# Utility of Sliding Window:
+
+1. SUBARRAY (think abt prefix sum, sliding windows, or both are applied or not)
+2. Substrings
+3. Largest/ Smallest sum
+4. If a window/subarray of given size k and asked abt min and max.
+5. ****Sliding Window me kabhi bhi sorting nahi lagate hai kyu ki jo specific window chahiye hamme vo khoo denge 
