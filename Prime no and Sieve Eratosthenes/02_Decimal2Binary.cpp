@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 
 
 
@@ -6,10 +7,14 @@ using namespace std;
 
 string decimal2binary(int num){
     string result = "";
-    while(num >= 0){
-    if(num % 2 == 0) {result = '0' + result;}
-    else {result = '1' + result;}
-    num = num / 2;
+    while(num > 0){
+        if(num % 2 == 0) {
+            result = "0" + result;
+        }else {
+            result = "1" + result;
+        }
+        num = num >> 1;
+        //num = num / 2;
     }
     return result;
 }
@@ -18,8 +23,7 @@ string decimal2binary(int num){
 
 int main(){
 
-    int num = 45;
-    cout << decimal2binary(num);
+    cout << decimal2binary(45) << endl; ;
 
     return 0;
 }
